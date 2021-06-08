@@ -1,3 +1,15 @@
+# Additional Notes/Instructions
+
+* used ruby version 2.5.1
+* method to verify api key is in application controller
+* added query parameter in questions controller
+* added middleware in /config/initializers/rack_attack.rb
+* used rspec for testing
+* total of 5 tests: 1 for welcome controller 4 for questions controller
+* to run tests run:
+`rspec spec/controllers/questions_controller_spec.rb`
+`rspec spec/controllers/welcome_controller_spec.rb` 
+
 # Kaleo Rails Engineer Candidate Interview Project
 
 Thanks for taking the time to complete this exercise. We're excited that you're considering joining our amazing team.
